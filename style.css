@@ -6,7 +6,7 @@ body{
 }
 .main-header{
 	background-color: rgba(0, 0, 0, .6);
-	background-image: url("Images/banner.jpg");
+	background-image: url("banner.jpg");
 	background-blend-mode: multiply;
 	background-size: cover;
 	height: 100vh;
