@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+
+	margin: 0;
+}
+.main-header{
+	background-color: rgba(0, 0, 0, .6);
+	background-image: url("Images/banner.jpg");
+	background-blend-mode: multiply;
+	background-size: cover;
+	height: 100vh;
+}
+
+.main-header h1{
+	text-align: center;
+	color:white;
+	margin:0;
+	font-size: 4em;
+	font-weight: bold;
+	padding-top: 17%;
+	font-family: Raleway;
+
+}
+
+.main-header p{
+	text-align: center;
+	color: white;
+	font-size: 2em;
+	font-weight: normal;
+	padding: 0 500px 0 500px;
+	font-family: Raleway;
+}
+
+.main-header button{
+	color: white;
+	background-color:#56CCF2;
+	font-weight: bold;
+	font-size: 1em;
+	border: none;
+	border-radius: .3em;
+	text-align: center;
+	display: block;
+	padding: 20px 40px 20px 40px;
+	margin: 0 auto;
+}
+
+.main-header button:hover{
+	background-color: rgba( 255, 255, 255, .3);
+	cursor: pointer;
+}
+
+.content1{
+	background-color: EFE8E7;
+	padding: 5% 15% 4% 15%;
+}
+
+.content1 button
+{
+	color: white;
+	background-color:#56CCF2;
+	font-weight: bold;
+	font-size: 1em;
+	border: none;
+	border-radius: .3em;
+	text-align: center;
+	display: block;
+	padding: 20px 40px 20px 40px;
+	margin: 3em 0;
+	font-family: Raleway;
+}
+
+.content1 button:hover{
+	background-color: rgba( 0, 0, 0, .6);
+	cursor: pointer;
+}
+
+.content1 img{
+	display: flex;
+	float: left;
+	margin-right: 3em;
+	border-radius: 50%;
+	border: 3px solid black;
+}
+
+.content1 h2{
+	font-size: 2em;
+	font-family: Raleway;
+	padding-bottom: 1em;
+}
+
+.content1 p{
+	font-size: 1.2em;
+	font-family: Raleway;
+}
+
+
+.content2{
+	background-color: #56CCF2;
+	padding: 5% 15% 4% 15%;
+	color: white;
+}
+
+.content2 button
+{
+	color: #56CCF2;
+	background-color: white;
+	font-weight: bold;
+	font-size: 1em;
+	border: none;
+	border-radius: .3em;
+	text-align: center;
+	display: block;
+	padding: 20px 40px 20px 40px;
+	margin: 3em 0;
+	font-family: Raleway;
+}
+
+.content2 button:hover{
+	background-color: rgba( 0, 0, 0, .6);
+	cursor: pointer;
+}
+
+.content2 img{
+	display: flex;
+	float: right;
+	margin-left: 3em;
+	border-radius: 50%;
+	border: 3px solid white;
+}
+
+.content2 h2{
+	font-size: 2em;
+	font-family: Raleway;
+	padding-bottom: 1em;
+}
+
+.content2 p{
+	font-size: 1.2em;
+	font-family: Raleway;
+}
+
+.content3{
+	background-color: EFE8E7;
+	padding: 5% 10% 4% 10%;
+}
+
+.content3 h2{
+	font-size: 2.5em;
+	font-family: Raleway;
+	text-align: center;
+}
+
+.content3 p{
+	text-align: center;
+	color: grey;
+	font-size: 1.5em;
+	font-family: Raleway;
+	padding-bottom: 2em;
+}
+
+.content3 button
+{
+	color: white;
+	background-color:#56CCF2;
+	font-weight: bold;
+	font-size: 1em;
+	border: none;
+	border-radius: .3em;
+	text-align: center;
+	display: block;
+	padding: 20px 40px 20px 40px;
+	margin: 3em 0;
+	font-family: Raleway;
+}
+
+.content3 button:hover{
+	background-color: rgba( 0, 0, 0, .6);
+	cursor: pointer;
+}
+
+.content3 img{
+	display: inline-block;
+	border-radius: 50%;
+	padding: 0 4em;
+}
+
+.p1{
+	display: inline-block;
+	border-radius: 50%;
+	padding: 0 4em;
+}
+
+footer{
+	display: block;
+	text-align: center;
+	margin: 1em auto;
+}
